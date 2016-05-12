@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 // Initial array of animals
 	var animals = ['chicken', 'cat', 'monkey', 'skunk', 'pig', 'bird', 'lizard'];
 
@@ -100,7 +102,7 @@
 
 		// We have this line so that users can hit "enter" instead of clicking on ht button and it won't move to the next page
 		return false;
-	})
+	});
 
 // ========================================================
 
@@ -112,3 +114,4 @@
 
 	// This calls the renderButtons() function
 	renderButtons();
+})
