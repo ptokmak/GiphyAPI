@@ -1,0 +1,33 @@
+		button, div, form, input {
+			margin: 10px;
+		}
+		body{
+			background: url(../../assets/images/img_01.jpg)  no-repeat;
+		}
+		.container{
+			margin-left: 100px;
+			margin-top: 160px;
+			min-height: 800px;			
+		}
+		h1{
+			font-size: 2em;
+		}
+		footer{
+			border: 1px solid black;
+			height: 70px;	
+			background-color: black;	
+			width:100%;
+			text-align: center;
+			clear: both;	
+		}
+		footer p{
+			font-size: 0.75em;
+			font-weight: normal;
+			padding-top: 5px;
+			color: white;	
+		}
+		#creds{
+			font-size: 0.6em;
+			 color: grey;
+
+		}
