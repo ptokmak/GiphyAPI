@@ -33,6 +33,7 @@ $( document ).ready(function() {
 		             personImage.attr('src', results[i].images.fixed_height_still.url);
 		             personImage.attr('data-still', results[i].images.fixed_height_still.url);
 		             personImage.attr('data-animate', results[i].images.fixed_height.url);
+		             personImage.attr('data-state', 'still');
 		             personImage.addClass("stateGif");
 
 		             gifDiv.append(p)
